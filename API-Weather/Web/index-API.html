@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="weather">
+<!--Thanh tim kiem-->
+    <input type="text" class="search"/>
+
+<!--Thanh pho duoc tim kiem-->
+    <div class="content">
+        <h1 class="capital">
+            <span class="city"> Ha Noi</span>
+            <span>,</span>
+            <span class="country"> VN </span>
+        </h1>
+
+<!--Thoi gian -->
+        <div class="time">24/12/20222 , 3:25:16</div>
+
+<!--Nhiet do-->
+        <div class="temperature">
+            <span class="value"></span>
+        </div>
+
+<!--Trang thai thoi tiet-->
+        <div class="short-desc">Clouds</div>
+
+<!--Tinh trang thoi tiet-->
+        <div class="more-desc">
+            <div class="visibility">
+                <i class="fa-regular fa-eye"></i>
+                <span>1000m</span>
+
+                <div class="wind">
+                    <i class="fa-regular fa-wind"></i>
+                    <span>1000m</span>
+                </div>
+
+                <div class="sun">
+                    <i class="fa-regular fa-sun"></i>
+                    <span>1000m</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
